@@ -1,0 +1,228 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>The Center for Groundwater Evaluation and Management</title>
+
+  <meta http-equiv="content-type" content="text/html" charset="iso-8859-1" />
+  <meta name="title" content="Stanford University | The Center for Groundwater Evaluation and Management"/>
+  <meta name="description" content="The GEM Center is a research center that provides a multidisciplinary/crosscutting approach to groundwater evaluation and management."/>
+  <meta name="keywords" content="earth science, groundwater, evaluation, management, geophysics, Hydraulic Conductivity"/>
+
+  <link rel="stylesheet" href="stylesheets/reset.css" type="text/css">
+  <link rel="stylesheet" href="stylesheets/default.css" type="text/css">
+  <!--[if lte IE 7]><link rel="stylesheet" href="stylesheets/ie.css" type="text/css"><![endif]-->
+
+  <script type='text/javascript' src='javascripts/jquery.js'></script>
+  <script type='text/javascript' src='javascripts/tabs.js'></script>
+  <script type='text/javascript' src='javascripts/searchbox.js'></script>
+  <script type='text/javascript' src='javascripts/jquery.pngFix.js'></script>
+  <script type="text/javascript"> 
+      $(document).ready(function(){ 
+
+      }); 
+  </script>   
+</head>
+<body>
+
+<div id="container">
+
+  <!-- page header -->
+  <div id="header">
+    <div id="branding">
+      <a href="index.html">
+      <img src="images/logo.jpg" alt="The Center for Groundwater Evaluation and Management"></a>
+      <h1><a href="index.html">The Center for Groundwater Evaluation and Management<br><span>Stanford University</span></a></h1>
+    </div>
+    <div id="search">
+    <!--<form name="searches" action="#" method="post" id="searches">
+      <input type="text" id="searchbox" name="searchbox" value="Search...">
+      <div class="button"><input type="submit" value="" id="searchbtn"><span></span></div>
+    </form> -->
+    </div>
+    <div id="navigation">
+      <ul>
+        <li><a href="index.html" class="current">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="sponsors.html">Sponsors</a></li>
+      </ul>
+    
+    </div>
+  </div>
+  <!-- end page header -->
+
+ 
+
+  <!-- FEATUED CONTENT TABS -->      
+  <div id="featured">
+  <div id="tab-1" class="information" >
+  
+    <div class="entry" id="slide01">
+        <h2>The Use of Geophysical Methods to Develop an Improved Model of the Processes Governing the Operation of an Artificial Recharge Pond</h2>
+        <br />
+        <p>What is causing the dramatic observed decrease in the infiltration rate over time? Why is not all of the stored water recovered? Where does the "lost" water go?</p>
+        <br />
+        <a class="read-more" href="research.project1.1.html"/></a>
+
+    </div><!-- /.entry -->
+  </div><!-- /information -->
+
+  
+  <div id="tab-2" class="information" style="display:none;">
+    
+    <div class="entry" id="slide02">
+        <h2>Laboratory and Numerical Studies of the NMR Response of Near-Surface Materials</h2>
+        <br />
+        <p>What is the link between NMR relaxation times and pore sizes? Can we obtain reliable estimates of hydraulic conductivity? </p>
+        <br />
+        <a class="read-more" href="research.project2.6.html"/></a>
+
+    </div><!-- /.entry -->      
+  </div><!-- /information -->
+
+  
+  <div id="tab-3" class="information" style="display:none;">  
+      
+    <div class="entry" id="slide03">
+        <h2>The Use of InSAR Data to Monitor the Hydrologic Response of a Confined Aquifer</h2>
+        <br />
+        <p>Can high quality InSAR data be acquired and used in the agricultural San Luis Valley?</p>
+        <br />
+        <a class="read-more" href="research.project3.1.html"/></a>
+    
+    </div><!-- /.entry -->        
+  </div><!-- /information -->
+
+  
+  <ul id="featured-tabs">      
+    <li><a href="#tab-1">Modeling the operation of a recharge pond &nbsp; &nbsp;<span class="description">What is causing the dramatic observed decrease in the...&nbsp;</span></a></li>
+    <li><a href="#tab-2">Laboratory and Numerical Studies of the NMR Response of Near-Surface Materials &nbsp; &nbsp;<span class="description">What is the link between NMR relaxation times and...&nbsp;</span></a></li>
+    <li><a href="#tab-3">InSAR data to monitor a confined aquifer &nbsp; &nbsp;<span class="description">Can high quality InSAR data be acquired and used...&nbsp;</span></a></li>
+  </ul>	<!-- /featured-tabs -->      
+  </div><!-- /featured -->
+    
+  <!-- END FEATUED CONTENT TABS -->
+
+  <!-- Main Content -->
+  <div id="main-content">
+  	
+    <div class="spacer10"></div>
+
+
+    <div class="container50" id="recent-publications">
+      
+       <!-- <h3>Recent Publications</h3>
+      <ul>
+        <li>
+          <div class="spacer15"></div>
+          <p><a href="pdfs/KeatingetalGRL2008.pdf">Keating, K., Knight, R., and Tufano, K., Nuclear magnetic resonance relaxation measurements as a means of monitoring iron mineralization processes, Geophysical Research Letters, 35, L19405, doi:10.1029/2008GL035225, 2008.</a></p>
+
+        </li>
+		<h4>&nbsp; &nbsp;</h4>
+        <li>
+          <div class="spacer10"></div>
+          <a href="pdfs/Haines.09.pdf">Haines, S., Pidlisecky, A., and Knight, R., Hydrogeologic structure underlying a recharge pond delineated with shear-wave seismic reflection and cone penetrometer data, revised for publication in Near Surface Geophysics EAGE/SEG special issue on Hydrogeophysics, February 2009.</a>
+        </li>
+       
+      </ul> -->
+      
+     <h3>The GEM Center</h3><br />
+      <p>The GEM Center is a research center that provides a multidisciplinary/crosscutting approach to groundwater evaluation and management.  The focus of research is the integration of data, acquired across a wide range of spatial and temporal scales, to monitor and model subsurface hydrologic processes.  The defining characteristic of the GEM Center is the use of geophysical data as an essential part of all aspects of groundwater evaluation and management.  Central to our approach is the establishment of partnerships that allow the GEM Center to demonstrate state-of-the-science solutions to "real-world" problems.  In this way, we hope to play a key role in encouraging the adoption of new approaches, and new technologies, for addressing the challenging problems we face in the evaluation and management of our groundwater resources. 
+      <div class="spacer10"></div>
+      <a href="about.mission.html">Read full mission statement</a>
+      
+      
+    </div>
+    <!-- end recent publications -->
+    <div class="container50" id="upcoming-events">
+      <h3>News &amp; Announcements</h3>
+    <ul>
+
+		<li>
+        <h4><a href="https://pangea.stanford.edu/researchgroups/enviro/news/features/near-surface-geophysics-course">GEM Center Researchers Bound for Australia in Search of Groundwater for Remote Aboriginal Villages</a></h4>
+        <p>GEM Center researchers were recently awarded a grant from Geoscientists Without Borders (GWB) to conduct geophysical measurements in South Australia in hopes of improving water security for remote Aboriginal villages.</p>
+      </li>
+
+
+      <li>
+        <h4><a href="https://pangea.stanford.edu/researchgroups/enviro/news/features/near-surface-geophysics-class-goes-colorado">Near-Surface Geophysics Class Goes to Colorado</a></h4>
+        <p>In the Spring of 2013, students from the GP190 Near-Surface Geophysics class had a unique opportunity to visit an aquifer recharge and recovery (ARR) facility in Colorado to gain experience making field geophysical measurements.</p>
+      </li>
+      
+		<li>
+        <h4><a href="https://pangea.stanford.edu/researchgroups/enviro/news/features/gem-center-phd-student-denys-grombacher-wins-2nd-place-best-paper-award-sageep-2013">GEM Center PhD Student Denys Grombacher Wins 2nd Place in Best Paper Award at SAGEEP 2013</a></h4>
+      </li>
+      
+      <li>
+        <h4><a href="https://pangea.stanford.edu/researchgroups/enviro/news/features/gem-center-phd-student-emily-fay-awarded-canadian-research-scholarship">GEM Center PhD Student Emily Fay Awarded Canadian Research Scholarship</a></h4>
+      </li>
+
+
+
+    </ul> 
+   	
+    <div class="spacer20"></div>
+	<a href="https://pangea.stanford.edu/researchgroups/enviro/news"><img src="images/more-new.png" width="80" height="16" alt="more news"></a>
+         
+    </div>
+    <!-- end upcoming events -->
+  </div>
+  <!-- end Main Content -->
+  
+  <!-- Sidebar -->
+  <div id="sidebar">
+    
+    <div id="quicklinks">
+    
+        <h3>Quick Links</h3>
+        <div class="container50">
+          <ul class="links">
+            <li><a href="about.mission.html">Mission Statement</a></li>
+            <li><a href="about.faculty-directors.html">Faculty Directors</a></li>
+            <li><a href="about.affiliated-faculty.html">Affiliated Faculty</a></li>
+            <li><a href="about.contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="container50">
+          <ul class="links">
+            <!--<li><a href="publications.html">Publications</a></li>
+            <li><a href="presentations.html">Presentations</a></li>-->
+          </ul>  
+        </div>
+        
+  	</div><!-- end quicklinks -->  
+	    <!-- Sponsor -->
+        <!--<div id="sponsor">-->
+          <h3>Sponsors</h3><br/>
+		  <h4>Founding Sponsor</h4>
+          <div class="clearfix"></div>
+          <a href="http://www.slb.com/content/services/additional/water/index.asp" target="_blank"><img src="images/schlumberger.png" alt="Schlumberger Water services"></a>
+        <div>
+		<br/>
+		  <h4>Bechtel Foundation</h4>
+		  <h4>National Science Foundation</h4>
+		  <h4>Department of Energy</h4>
+		</div>
+	    <!--<img src="images/NASA.png" alt="NASA Terrestrial Hydrology Program">-->
+
+		  
+   <!-- end Sponsor -->
+  </div><!-- end sidebar -->
+   
+</div>
+<div id="footer">
+
+  <div id="navigation">
+    <ul>
+      <li><a href="index.html" class="current">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="sponsors.html">Sponsors</a></li>
+      <li id="legal"><cite>&copy; 2009 Groundwater Evaluation and Management Center</li>
+    </ul>
+    
+</div>
+</body>
+</html>

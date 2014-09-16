@@ -1,0 +1,173 @@
+/* Stanford University -- Center for Groundwater Evaluation and Management (c) 2009 */
+
+body { font-size: 14px; font-family: arial, helvetica, sans-serif; color:#444; background-image: url(../images/pagebg.png); background-repeat: repeat-y; background-position: center; background-color:#FFF;}
+
+#container { margin: -1px auto; width: 960px; height:auto; overflow: hidden }
+#container #header { height: 124px; width:100%; overflow: hidden; background-image:url(../images/header_bg.png); background-repeat: no-repeat;}
+
+/* Fonts & links */
+h1,h2,h3,h4 { font-family: arial, sans-serif; padding:0; margin:0; font-weight: bold; color:#333;}
+h1 { font-size: 200%; }
+h2 { font-size: 140%; }
+h3 { font-size: 120%; }
+h4 { font-size: 100%; }
+#featured .information{ font-size: 100%; }
+
+p { font-size: 100%; font-family: arial, helvetica, sans-serif; color:#333; line-height: 150%;}
+a { font-size: 100%; font-family: arial, helvetica, sans-serif; color:#990000; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Branding */
+#container #header #branding { float:left; width:650px; height: 80px; position: relative; overflow: hidden; }
+#container #header #branding img { position: absolute; top:0; left:0; }
+#container #header #branding h1 { position: absolute; top:20px; left:80px; font-family: arial, helvetica, sans-serif; font-size:18px; color:#FFF; }
+#container #header #branding h1 a {text-decoration: none; font-family: "Trebuchet MS",Tahoma,Arial,Sans-serif; font-weight: normal; font-size:18px; color:#FFF;}
+#container #header #branding h1 span {text-decoration: none; font-family: "Trebuchet MS",Tahoma,Arial,Sans-serif; font-weight: normal; font-size:14px; color:#FFF; }
+
+/* Search Bar */
+#container #header #search { float:left; width:305px; height: 60px; padding: 20px 0 0 0px;}
+#container #header #search form#searches input#searchbox { float:left;width: 250px; height:25px; border:0; padding: 6px 0 0 8px; background-image: url(../images/searchbox.png); background-repeat: no-repeat; font-size: 13px; line-height: 14px; color:#555;}
+#container #header #search form#searches div.button input#searchbtn {float:left; width:26px; height:31px; border:0;background-image: url(../images/searchbox_cap.png); background-repeat: no-repeat; cursor: pointer }
+
+/* Top Navigation */
+#container #header #navigation { clear:both; height: 40px; width:950px; margin:0; }
+#container #header #navigation ul { padding: 10px; margin:0; color:#FFF; }
+#container #header #navigation ul li { padding:2px 15px 17px; margin:0; border-right: 1px solid #7B95B4; display: inline; }
+#container #header #navigation ul li a { color:#FFF; font-family: Verdana, arial, helvetica, sans-serif; padding: 0 0 15px;}
+#container #header #navigation ul li a:hover,
+#container #header #navigation ul li a.current { text-decoration: none; background-image: url(../images/current.png); background-repeat: no-repeat; background-position: bottom center; }
+
+
+/* Featured Tabs */
+#featured { margin:5px; border: 1px solid #CBD1D2; }
+#featured .information { float:left; width: 600px; height:284px; padding:10px;background-color: #DCE1E2; border-right:#FFF;}
+#featured .information h2 { color: #FFF; }
+#featured .information p { font-size: 100%; font-family: arial, helvetica, sans-serif; color:#FFF; line-height: 125%;}
+#featured .information a { font-size: 100%; font-family: arial, helvetica, sans-serif; color:#FFF; line-height: 125%;}
+#featured .information .feat-button { overflow: hidden; text-transform: uppercase}
+#featured .information .feat-button .left { float:left; background: url(../images/moreinfoleft.jpg) repeat-x left top; width:5px; height:30px;}
+#featured .information .feat-button a.more-info { float: left; padding: 8px 5px; color: #fff; background: url(../images/moreinfotile.jpg) repeat-x left top;}
+#featured .information .feat-button .right { float: left; background: url(../images/moreinforight.jpg) repeat-x left top; width:19px; height:30px;}
+#featured-tabs { border-left: 1px solid #e7eeef; background: #d0d6d7 url(../images/featured_links_shadow.jpg) repeat-y left top; margin-left: 620px; }
+#featured-tabs li {border-top: 1px solid #bcc5c7; border-bottom: 1px solid #dee2e3; padding:13px 20px; height: 73px; font-weight: bold}
+#featured-tabs li a:link, #featured-tabs li a:visited  {color: #23262a; padding: 10px 0 15px 20px; font-size: 16px; margin-left: -21px;}
+#featured-tabs li a:hover, #featured-tabs li.active a  { background: url(../images/featured_links_current.jpg) no-repeat left center; text-decoration: none; margin-left: -21px; color: #990000;}
+
+/* #featured-tabs li a:hover, #featured-tabs li.active a  { background: url(../images/featured_links_current.jpg) no-repeat left center; padding:20px; text-decoration: none; margin-left: -21px;} */
+#featured-tabs a span { display: list-item; margin: 0;  color: #4f5357; font-size:12px; font-weight: normal}
+/* Setup background images for slides */
+#featured .information #slide01 { background-image: url(../images/2.1Proj1Feature.jpg); background-repeat: no-repeat; width: 558px; height: 243px; padding:20px; border:1px solid #FFF;}
+#featured .information #slide02 { background-image: url(../images/2.1Proj2Feature.jpg); background-repeat: no-repeat; width: 558px; height: 243px; padding:20px; border:1px solid #FFF;}
+#featured .information #slide03 { background-image: url(../images/2.1Proj5Feature.jpg); background-repeat: no-repeat; width: 558px; height: 243px; padding:20px; border:1px solid #FFF;}
+
+#featured .read-more {
+background:transparent url(../images/carousel-read-more.png) no-repeat scroll 0 0;
+display:block;
+height:19px;
+text-indent:-9999px;
+width:127px;
+}
+
+/* Data overlay Tabs */
+#dataoverlay { margin:5px; border: 1px solid #CBD1D2; }
+#dataoverlay .information { float:left; width: 400px; height:auto; padding:10px; background-color: #DCE1E2; border-right:#FFF;}
+#dataoverlay .information .entry p { float:right; width: 387px; margin-right: -20px; margin-top:225px; padding:5px;}
+#dataoverlay .information h2 { color: #FFF; }
+#dataoverlay .information p { clear:both; padding: 3px; font-size: 80%; font-family: arial, helvetica, sans-serif; color:#FFF; line-height: 125%; background-color: #000;}
+#dataoverlay .information a { font-size: 100%; font-family: arial, helvetica, sans-serif; color:#FFF; line-height: 125%;}
+#dataoverlay .information .feat-button { overflow: hidden; text-transform: uppercase}
+#dataoverlay .information .feat-button .left { float:left; background: url(../images/moreinfoleft.jpg) repeat-x left top; width:5px; height:30px;}
+#dataoverlay .information .feat-button a.more-info { float: left; padding: 8px 5px; color: #fff; background: url(../images/moreinfotile.jpg) repeat-x left top;}
+#dataoverlay .information .feat-button .right { float: left; background: url(../images/moreinforight.jpg) repeat-x left top; width:19px; height:30px;}
+#dataoverlay-tabs { border-left: 1px solid #e7eeef; background: #d0d6d7 url(../images/featured_links_shadow.jpg) repeat-y left top; margin-left: 420px; }
+#dataoverlay-tabs li {border-top: 1px solid #bcc5c7; border-bottom: 1px solid #dee2e3; padding:15px;}
+#dataoverlay-tabs li a:link, #dataoverlay-tabs li a:visited  {color: #990000; padding: 10px 0 10px 20px; font-size: 12px; margin-left: -21px;}
+#dataoverlay-tabs li a:hover, #dataoverlay-tabs li.active a  { text-decoration: underline; color: #990000; font-weight: bold;}
+
+/* #featured-tabs li a:hover, #featured-tabs li.active a  { background: url(../images/featured_links_current.jpg) no-repeat left center; padding:20px; text-decoration: none; margin-left: -21px;} */
+#dataoverlay-tabs a span { display: list-item; margin: 0;  color: #4f5357; font-size:12px;}
+/* Setup background images for slides */
+#dataoverlay .information #slide01_1Proj1DO1photo { background-image: url(../images/2.1Proj1.DO1photo.jpg); background-repeat: no-repeat; width: 358px; height: 243px; padding:20px; border:1px solid #FFF;}
+#dataoverlay .information #slide02_1Proj1DO2photo { background-image: url(../images/2.1Proj1.DO2photo.jpg); background-repeat: no-repeat; width: 358px; height: 243px; padding:20px; border:1px solid #FFF;}
+#dataoverlay .information #slide03_1Proj1DO3photo { background-image: url(../images/2.1Proj1.DO3photo.jpg); background-repeat: no-repeat; width: 358px; height: 243px; padding:20px; border:1px solid #FFF;}
+#dataoverlay .information #slide04_1Proj1DO4photo { background-image: url(../images/2.1Proj1.DO4photo.jpg); background-repeat: no-repeat; width: 358px; height: 243px; padding:20px; border:1px solid #FFF;}
+#dataoverlay .information #slide05_1Proj1DO5photo { background-image: url(../images/2.1Proj1.DO5photo.jpg); background-repeat: no-repeat; width: 358px; height: 243px; padding:20px; border:1px solid #FFF;}
+
+#dataoverlay .information #slide01_1Proj2DO1photo { background-image: url(../images/2.1Proj2.DO1photo.jpg); background-repeat: no-repeat; width: 358px; height: 243px; padding:20px; border:1px solid #FFF;}
+#dataoverlay .information #slide02_1Proj2DO2photo { background-image: url(../images/2.1Proj2.DO2photo.jpg); background-repeat: no-repeat; width: 358px; height: 243px; padding:20px; border:1px solid #FFF;}
+#dataoverlay .information #slide03_1Proj2DO3photo { background-image: url(../images/2.1Proj2.DO3photo.jpg); background-repeat: no-repeat; width: 358px; height: 243px; padding:20px; border:1px solid #FFF;}
+
+#dataoverlay .information #slide01_1Proj3DO1photo { background-image: url(../images/2.1Proj3.DO1photo.jpg); background-repeat: no-repeat; width: 358px; height: 243px; padding:20px; border:1px solid #FFF;}
+#dataoverlay .information #slide02_1Proj3DO2photo { background-image: url(../images/2.1Proj3.DO2photo.jpg); background-repeat: no-repeat; width: 358px; height: 243px; padding:20px; border:1px solid #FFF;}
+
+#dataoverlay .information #slide01_1Proj5DO1photo { background-image: url(../images/2.1Proj5.DO1photo.jpg); background-repeat: no-repeat; width: 358px; height: 243px; padding:20px; border:1px solid #FFF;}
+#dataoverlay .information #slide02_1Proj5DO2photo { background-image: url(../images/2.1Proj5.DO2photo.jpg); background-repeat: no-repeat; width: 358px; height: 243px; padding:20px; border:1px solid #FFF;}
+#dataoverlay .information #slide03_1Proj5DO3photo { background-image: url(../images/2.1Proj5.DO3photo.jpg); background-repeat: no-repeat; width: 358px; height: 243px; padding:20px; border:1px solid #FFF;}
+#dataoverlay .information #slide03_1Proj5DO4photo { background-image: url(../images/2.1Proj5.DO4photo.jpg); background-repeat: no-repeat; width: 358px; height: 243px; padding:20px; border:1px solid #FFF;}
+
+#dataoverlay .information #slide01_1Proj4DO1photo { background-image: url(../images/2.1Proj4.D01photo.jpg); background-repeat: no-repeat; width: 358px; height: 243px; padding:20px; border:1px solid #FFF;}
+#dataoverlay .information #slide02_1Proj4DO2photo { background-image: url(../images/2.1Proj4.D02photo.jpg); background-repeat: no-repeat; width: 358px; height: 243px; padding:20px; border:1px solid #FFF;}
+#dataoverlay .information #slide03_1Proj4DO3photo { background-image: url(../images/2.1Proj4.D03photo.jpg); background-repeat: no-repeat; width: 358px; height: 243px; padding:20px; border:1px solid #FFF;}
+#dataoverlay .information #slide03_1Proj4DO4photo { background-image: url(../images/2.1Proj4.D04photo.jpg); background-repeat: no-repeat; width: 358px; height: 243px; padding:20px; border:1px solid #FFF;}
+
+/* Content Layout */
+/*#container #main-content { float:left; margin:0 0 0 5px; padding: 10px; width:600px; overflow: hidden; min-height: 600px}*/
+#container #main-content { float:left; margin:0 0 0 5px; padding: 10px; width:600px; height: auto; overflow: visible;}
+#container #sidebar { float:left; width:306px;  margin:25px 0 0 2px; padding:10px; overflow: hidden; border-left: 1px dotted #CCC; overflow: visible}
+#container .content-third { float: left; margin: 10px 5px 0 20px; width: 30%; height:200px; border: 1px solid #CCC;}
+
+#container .left { float: left !important; border:0 !important; width:243px !important;}
+#container .right { float: right !important; border:0 !important; width: 668px !important; border-left: 1px dotted #999 !important; min-height: 800px;}
+
+#container .container50 { float:left; width:45%; margin:5px 10px 0 0; padding: 0 10px 0 0; }
+#container .container50 h4 {font-weight: normal;}
+#container #sidebar .container50 { width: 40%; overflow: auto; height: 200px;  }
+#container .container50 ul.links { margin: 10px 0 0; padding:0; overflow: auto; }
+#container .container50 ul.links li { list-style: none; margin: 4px 0 0; font-size: 90%; }
+#container .container50 ul.links li a { background-image: url(../images/arrow.png); background-repeat: no-repeat; background-position: 0px 4px; padding:0 0 0 10px;}
+#container .container50 h4 { border-bottom: 1px dotted #999; margin: 15px 0 2px;}
+#container .container50 p { font-size: 95%; line-height: 110%;}
+
+#container #sidebar ul.submenu { padding:0; margin:10px 0 0; }
+#container #sidebar ul.submenu li { margin: 0; padding: 0; border-bottom: 1px dotted #CCC; }
+#container #sidebar ul.submenu li a { display: block; padding: 8px 10px 10px 5px; }
+#container #sidebar ul.submenu li a.sidebar-current, 
+#container #sidebar ul.submenu li a:hover { display:block; background: #5074A0; padding: 8px 10px 10px 5px; color:#FFF; text-decoration: none;}
+#container #sidebar ul.submenu li ul li { margin: 0 0 0 20px; border:0 !important;}
+#container #sidebar ul.submenu li ul li a, #container #sidebar ul#submenu li ul li a:hover { padding: 4px 10px 6px 5px !important; margin-top: 1px; }
+
+#quicklinks { background-image:url(../images/top-bar-shadow2.png); background-repeat:repeat-x; margin:0 0 10px 15px; padding:25px 0 0; width:295px; overflow: visible; }
+#sponsor { clear:both; overflow: hidden; height: 200px;;}
+
+/* Faculty Profiles */
+#container .profile { margin: 10px 0; overflow: hidden; }
+#container .profile .thumbnail { float: left; width: 80px; height:100px; padding:2px; border:1px solid #CCC;}
+#container .profile .description { margin: 0 0 0 90px; }
+#container .profile .description p { font-size: 100%; }
+
+/* Research Areas */
+#container .research-area { margin: 10px 0; overflow: hidden; padding: 0 0 10px; border-bottom: 1px dotted #CCC;}
+#container .research-area .description { margin: 0; }
+#container .research-area .description p { font-size: 100%;}
+#container .research-area .description ul li { font-size: 100%; list-style-type: circle; margin: 10px 0 10px 15px; list-style-position: outside}
+
+/* Footer */
+#footer { clear:both; margin: 30px auto; width:980px; height: 30px; background-image: url(../images/page-bottom-bg.png); background-repeat: no-repeat; background-position: -1px -1px; }
+
+#footer #navigation { clear:both; height: 40px; width:950px; margin:0; }
+#footer #navigation ul { padding: 1px; margin:0; color:#FFF; }
+#footer #navigation ul li { padding:0 27px; margin:3px; border-right: 1px solid #999; display: inline; position: relative; top: 5px; font-size:80%; color:#333;}
+#footer #navigation ul li#legal { border:0; padding:0; margin: 0; position: relative; left: 15px; font-size:80%;}
+#footer #navigation ul li a { color:#444; font-family: Verdana, arial, helvetica, sans-serif; padding: 0 0 15px; font-size:90%;}
+#footer #navigation ul li a:hover,
+#footer #navigation ul li a.current { text-decoration: underline; }
+
+
+/* Spacers */
+.spacer5  { clear:both; width:100%; height: 5px;  border:0; overflow:hidden; }
+.spacer10 { clear:both; width:100%; height: 10px; border:0; overflow:hidden;}
+.spacer15 { clear:both; width:100%; height: 15px; border:0; overflow:hidden;}
+.spacer20 { clear:both; width:100%; height: 20px; border:0; overflow:hidden;}
+.spacer25 { clear:both; width:100%; height: 25px; border:0; overflow:hidden;}
+.spacer30 { clear:both; width:100%; height: 30px; border:0; overflow:hidden;}
+.clearfix { clear:both; }

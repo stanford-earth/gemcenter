@@ -1,0 +1,4 @@
+AuthUserFile /WWW/research/gemcenter/nmr_gems_protected/.htpasswd
+AuthName associates
+AuthType Basic
+Require valid-user

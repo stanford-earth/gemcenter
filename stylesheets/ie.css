@@ -1,0 +1,27 @@
+/* Stanford University -- Center for Groundwater Evaluation and Management (c) 2009 */ /* IE6 styles */
+
+/* Top Navigation */
+#container #header #navigation ul li { padding:2px 15px 2px; margin:0; border-right: 1px solid #7B95B4; display: inline; position: relative; top:0;}
+
+/* Featured Tabs */
+#featured-tabs li { padding:10px; position: relative; left: 0px; }
+#fea\tured-tabs li { padding:10px; position: relative; left: -3px; } /* IE 6 and below */
+
+#featured-tabs li a:link, #featured-tabs li a:visited,
+#featured-tabs li a:hover, #featured-tabs li.active a  { display:block; margin-left: -11px; padding:3px 10px 5px 20px; }
+#dataoverlay .information .entry p { float:none; width: 395px; margin-top:275px; padding:0px;}
+
+
+/* Footer */
+#footer #navigation { margin:0 0 -16px;}
+#footer #navigation ul li { padding:0 27px 0; margin:0; border-right: 1px solid #999; display: inline; font-size:90%; color:#333; line-height: 12px; }
+#footer #navigation ul li#legal { border:0; padding:0; margin: 0; position: relative; left: 15px; font-size:80%;}
+#footer #navigation ul li a { color:#444; font-family: Verdana, arial, helvetica, sans-serif; padding: 0 0; font-size:90%;}
+#footer #navigation ul li a:hover,
+#footer #navigation ul li a.current { text-decoration: underline; }
+
+#quicklinks { background-image:url(../images/top-bar-shadow2.png); background-repeat:repeat-x; ; height:10px; margin:0 0 10px 15px; width:290px;}
+
+
+#container .container50 p { font-size: 85%; line-height: 150%;}
+#container .right { float: right !important; border:0 !important; width: 668px !important; border-left: 1px dotted #999 !important; height: 800px;}

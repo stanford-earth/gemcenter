@@ -1,0 +1,4 @@
+AuthUserFile /WWW/research/gemcenter/iearth/.htpasswd
+AuthName associates
+AuthType Basic
+Require valid-user

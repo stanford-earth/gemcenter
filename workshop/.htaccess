@@ -1,0 +1,4 @@
+AuthUserFile /WWW/research/gemcenter/workshop/.htpasswd
+AuthName associates
+AuthType Basic
+Require valid-user

@@ -1,0 +1,12 @@
+        <!--<li><a href="research.project2.4.html">NMR Logging to Estimate Hydraulic Conductivity</a></li>-->
+        <li><a href="research.project2.5.html">Surface NMR- Addressing Field Inhomogeneity</a></li>
+        <li><a href="research.project2.3.2.html">Integration of Surface, Logging and Direct-Push NMR with Hydraulic Conductivity Data</a></li>
+
+         <div class="spacer30"></div>
+    	<h3>Past Projects</h3><br>
+    	<li><a href="research.project2.2.html">A Novel Use of NMR Measurements for In-Situ Monitoring of Geochemical Reactions</a></li>
+    	
+        <li><a href="research.project2.2.html">A Novel Use of NMR Measurements for In-Situ Monitoring of Geochemical Reactions</a></li>
+        <!--<li><a href="research.project2.3.html">The Integration of Surface and Borehole NMR for Aquifer Characterization</a></li>-->
+        <li><a href="research.project2.4.html">NMR Logging to Estimate Hydraulic Conductivity</a></li>
+        <li><a href="research.project2.5.html">Surface NMR for Aquifer Characterization</a></li>
