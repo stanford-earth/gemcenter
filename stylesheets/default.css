@@ -20,9 +20,9 @@ a:hover { text-decoration: underline; }
 
 /* Branding */
 #container #header #branding { float:left; width:650px; height: 80px; position: relative; overflow: hidden; }
-#container #header #branding img { position: absolute; top:0; left:0; }
-#container #header #branding h1 { position: absolute; top:20px; left:80px; font-family: arial, helvetica, sans-serif; font-size:18px; color:#FFF; }
-#container #header #branding h1 a {text-decoration: none; font-family: "Trebuchet MS",Tahoma,Arial,Sans-serif; font-weight: normal; font-size:18px; color:#FFF;}
+#container #header #branding img { position: absolute; top:13px; left:25px; }
+#container #header #branding h1 { position: absolute; top:30px; left:147px; font-family: arial, helvetica, sans-serif; font-size:18px; color:#FFF; }
+#container #header #branding h1 a {text-decoration: none; font-family: 'Source Sans Pro',Arial,Sans-serif; font-weight: normal; font-size:18px; color:#FFF;}
 #container #header #branding h1 span {text-decoration: none; font-family: "Trebuchet MS",Tahoma,Arial,Sans-serif; font-weight: normal; font-size:14px; color:#FFF; }
 
 /* Search Bar */
